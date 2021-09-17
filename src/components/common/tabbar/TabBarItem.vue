@@ -24,7 +24,7 @@ export default {
       return this.$route.path.indexOf(this.path) !== -1;
     },
     activeStyle() {
-      return this.isActive ? { color: this.activeColor } : {};
+      return this.isActive ? { color: "red" } : {};
     },
   },
   methods: {
@@ -34,7 +34,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
 .tab-bar-item {
   flex: 1;
   text-align: center;
