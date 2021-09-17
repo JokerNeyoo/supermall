@@ -25,7 +25,10 @@
       <template v-slot:item-active-icon
         ><img src="~@/assets/imgs/tabbar/shopcart_active.svg" alt=""
       /></template>
+<<<<<<< HEAD
 
+=======
+>>>>>>> bd174a03ebe075d2098063f2a06058cd30e9f49f
       <template v-slot:item-text><div>购物车</div></template>
     </tab-bar-item>
     <tab-bar-item path="/profile" activeColor="deeppink">
