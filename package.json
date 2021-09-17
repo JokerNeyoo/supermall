@@ -10,11 +10,7 @@
   "dependencies": {
     "@vue/cli": "^4.5.13",
     "core-js": "^3.6.5",
-<<<<<<< HEAD
     "vue": "^3.2.11",
-=======
-    "vue": "^3.0.0",
->>>>>>> bd174a03ebe075d2098063f2a06058cd30e9f49f
     "vue-router": "^4.0.11"
   },
   "devDependencies": {

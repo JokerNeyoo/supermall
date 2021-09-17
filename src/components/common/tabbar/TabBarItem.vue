@@ -13,7 +13,7 @@ export default {
     path: String,
     activeColor: {
       type: String,
-      default: "red",
+      default: "lightpink",
     },
   },
   data() {
@@ -24,7 +24,7 @@ export default {
       return this.$route.path.indexOf(this.path) !== -1;
     },
     activeStyle() {
-      return this.isActive ? { color: "red" } : {};
+      return this.isActive ? { color: "lightpink" } : {};
     },
   },
   methods: {
